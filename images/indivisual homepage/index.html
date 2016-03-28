@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+
+
+
+
+
+<style>
+
+body{
+	background:url(image/main_p.jpg) no-repeat center center fixed;	
+	background-size:cover;
+}
+	
+.bulb_power{
+	position:relative;
+	top:70px;
+	left:40px;
+}
+
+.main_title{
+	
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #00d2ff, 0 0 30px #00d2ff, 0 0 40px #00d2ff, 0 0 50px #00d2ff, 0 0 60px #00d2ff, 0 0 70px #00d2ff;
+	font-size:80px;
+	position:relative;
+	top:-50px;
+	left:0px;
+}
+
+.back img{
+	width:40px;
+	height:40px;
+}
+
+.notice{
+	color:#FFFDFD;
+	position:relative;
+	top:-20px;
+	text-align:center;
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+
+<ul class="menu_bar">
+      <li><a href="about.html">A.B.O.U.T</a></li>
+      <li><a href="profile_main_page.html">P.R.O.F.I.L.E</a></li>
+      <li><a href="contact.html">C.O.N.T.A.C.T</a></li>
+      
+</ul>
+            
+<!--back to portfolio-->      
+      <div class="back" align="center">
+      	<a href="../../develop/develop.html"><img src="image/back.png">BACK</a>
+      </div>
+
+<div class="container">
+	<div class="row">
+    	<div class="col-md-12">
+        
+        
+<!--bulb_power-->    		
+		<div class="bulb_power">
+            <img id="myImage" onclick="changeImage()" src="image/fixlightoff.png" width="500" height="650" class="img-responsive">
+        	</div>
+        </div>
+     </div>  
+
+<!--Main Title --> 
+	<div class="notice">
+    	<p>Click the bulB</p>
+    </div>
+    
+    <div class="main_title">
+        <p>LyN's BulB HoUsE</p><br>
+    </div>
+    
+   
+</div>
+    
+    
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+
+<script>
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("fixlighton")) {
+        image.src = "image/fixlightoff.png";
+    } else {
+        image.src = "image/fixlighton.png";
+    }
+}
+
+</script>
+
+
+</body>
+</html>

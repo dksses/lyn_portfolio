@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.menu_bar{
+	width:100%;
+	height:60px;
+	text-align:right;
+	
+}
+
+
+.menu_bar li{
+	list-style:none;
+	float:left;
+	margin-right:50px;
+	
+}
+
+.menu_bar li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size:40px;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+
+.menu_bar li a:hover{
+	text-shadow: 6px  4px #BABABA;
+}

@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin :0;
+	padding:0;
+	font-family: 'Poiret One', cursive;
+}
+
+body{
+	width:100%;
+	height:100%;
+}
+
+.title_database{
+	position:relative;
+	top:130px;
+}
